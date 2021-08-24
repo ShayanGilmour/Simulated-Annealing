@@ -10,8 +10,17 @@ Here we have a set of cities:
 
 Here I've monitored the answer produces by simulated annealing over `200000` iterations (Less than `2s`).
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/12760574/130593093-432274a8-c33d-44b6-b0bc-ce3df5d916bd.png" width="250" />
   <img src="https://user-images.githubusercontent.com/12760574/130593103-1d66a418-b9ad-4709-b884-1a8046946ae1.png" width="250" />
   <img src="https://user-images.githubusercontent.com/12760574/130593179-e4a0e64e-0613-44de-8995-4a618703390a.png" width="250" />
   <img src="https://user-images.githubusercontent.com/12760574/130593185-87177503-1e7c-489e-a56b-153d99f55a6e.png" width="250" />
 </p>
+
+This is a better run which finds the most optimal cycle:
+
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/12760574/130593772-ade54e50-9c12-44dc-930f-a3f1d2a632cd.png" width="250" />
+  <img src="https://user-images.githubusercontent.com/12760574/130593778-39a21202-d921-482f-bbf3-ed2ed79d20e3.png" width="250" />
+  <img src="https://user-images.githubusercontent.com/12760574/130593784-f9f99e53-72dc-4bd8-a53a-e55ee6bc41d3.png" width="250" />
+</p>
+
+The code which makes the found cycle visual is also in the notebook.
