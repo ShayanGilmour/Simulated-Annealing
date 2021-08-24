@@ -1,6 +1,13 @@
 # Simulated Annealing Solving Traveling Salesman Problem
+Solving Traveling Salesman Problem with Simulated Annealing.
 
-Solving Traveling Salesman Problem with Simulated Annealing. In simulated annealing, we have point which is cruising the domain of a function. Here, the function is the cost function: The length of the cycle. And the point, which is a corresponding permutation of a cycle, is moving going to adjacent points in the domain. Here, adjacent point is just a similar permutation: Swapping 2 numbers of the permutation.
+### Input:
+The distances between each pair of vertices. There are two methods available in the code for reading the input. 
+1.  At line `i`, there should be `n-i` space-separated integers; The `j`th integer indicates the distance between vertex `i` and `i+j`. 
+2.  At line `i`, there should be three space-separated integers; First, the index of the vertex, second and third integers indicates the coordinate of the vertex.
+
+### Process:
+In simulated annealing, we have point which is cruising the domain of a function. Here, the function is the cost function: The length of the cycle. And the point, which is a corresponding permutation of a cycle, is moving going to adjacent points in the domain. Here, adjacent point is just a similar permutation: Swapping 2 numbers of the permutation.
 
 Here we have a set of cities:
 
@@ -22,6 +29,9 @@ This is a better run which finds the most optimal cycle:
   <img src="https://user-images.githubusercontent.com/12760574/130593778-39a21202-d921-482f-bbf3-ed2ed79d20e3.png" width="250" />
   <img src="https://user-images.githubusercontent.com/12760574/130593784-f9f99e53-72dc-4bd8-a53a-e55ee6bc41d3.png" width="250" />
 </p>
+
+### Output:
+Outputs one integer: The length of the shortest cycle. And the sequence of the found cycle.
 
 ### My Conclusion:
 For the tempreture, I've tried several decreasing functions; and here are the results for this particular testcase.
