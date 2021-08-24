@@ -23,4 +23,14 @@ This is a better run which finds the most optimal cycle:
   <img src="https://user-images.githubusercontent.com/12760574/130593784-f9f99e53-72dc-4bd8-a53a-e55ee6bc41d3.png" width="250" />
 </p>
 
+### My Conclusion:
+For the tempreture, I've tried several decreasing functions; and here are the results for this particular testcase.
+
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/12760574/130595775-782f8428-7eb3-4ed1-92b5-2d22e4680910.png" width="350" />
+  <img src="https://user-images.githubusercontent.com/12760574/130595780-d67a7032-d553-4a68-bee6-265492265354.png" width="350" />
+</p>
+
+Here, by by fitness I mean "cost". So the tempreture function musn't be a linear function.
+
 The code which makes the found cycle visual is also in the notebook.
