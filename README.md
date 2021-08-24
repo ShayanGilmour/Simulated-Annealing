@@ -44,3 +44,6 @@ For the tempreture, I've tried several decreasing functions; and here are the re
 Here, by by fitness I mean "cost". So the tempreture function musn't be a linear function.
 
 The code which makes the found cycle visual is also in the notebook.
+
+#### Postlude:
+The program reads the input from a file; The file `bayg.tsp`, contains a sample input, consisting of 29 vertices; I've downloaded this sample from [Heidelberg University' Site](http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/). The optimal answer for this testcase is `9074`.
